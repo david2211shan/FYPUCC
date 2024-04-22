@@ -1,12 +1,12 @@
-# FYPUCC
-Generative Adversarial Networks for time series forecasting
+
+# Generative Adversarial Networks for time series forecasting
 
 Financial Time series Data is incredibly hard to model due to the non-linear complexity of
 financial markets. This study explores the potential of deep learning in capturing market dy-
-namics, proposing a Generative Adversarial Network which positions Long Short Term Memory
+namics, proposing a **Generative Adversarial Network** which positions Long Short Term Memory
 networks as the generator and Convolutional Neural Networks as the discriminator, leveraging
 their strengths to capture the trends and patterns in the data. The research examines the
-use of variants for GANs, with Wassterstein GAN (WGAN) and Metropolis Hastings GAN
+use of variants for GANs, with **Wassterstein GAN** (WGAN) and **Metropolis Hastings GAN**
 (MHGAN). WGAN uses the Wassterstein distance as a loss function with the goal of enhanc-
 ing training stability while MHGAN incorporates Metropolis Hastings sampling into GANs,
 refining the sample selection process. The investigation into GAN variants, as contrasted
